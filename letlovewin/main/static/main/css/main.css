@@ -1,0 +1,71 @@
+: root {
+    --bright-blue: #51e2f5;
+    --blue-green: #9df9ef;
+    --dusty-white: #edf7f6;
+    --pink-sand: #ffa888;
+    --dark-sand: #a28089;
+}
+
+body {
+    background: --dusty-white;
+}
+
+aside {
+    float: left;
+    background: #ffa888;
+    width: 15%;
+    padding:2.5%;
+    height: 100vh;
+    color: #edf7f6;
+    border-right: 5px solid #a28089;
+}
+
+aside img {
+    width: 60px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-style: italic;
+    position: relative;
+    top: -15px;
+}
+
+aside ul {list-style:none}
+
+aside ul a {
+    text-decoration: none;
+}
+
+aside ul li {
+    color:#edf7f6;
+    display: block;
+    margin-top: 20px;
+    transition: transform, color .3s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #a28089;
+    transform: scale(1.1);
+}
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+
+main .features h1 {font-size: 50px}
+
+main .features p {max-width: 400px; margin: 20px auto}
